@@ -67,7 +67,7 @@ main h1.main-header {
 } */
 
 main p {
-    max-width: 50%;
+    max-width: 75%;
     text-align: center;
     margin: 0 auto;
     line-height: 1.5;
