@@ -7,7 +7,7 @@ const styles = {
     },
 
     submitBtn: {
-        backgroundColor: 'lightseagreen',
+        backgroundColor: 'lilac',
         color: '#fff',
         cursor: 'pointer'
     }
