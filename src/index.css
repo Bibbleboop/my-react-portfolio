@@ -15,13 +15,14 @@ form {
     width: 380px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 3 auto;
 }
 
 form > * {
-    padding: 7px 10px;
     margin-bottom: 7px;
-    border: 1px solid #ccc;
+    border: 1px solid #7209b7;
+    padding: 5px 9px;
+
     outline: none;
 }
 
@@ -29,18 +30,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #999;
+    background-color: #0077b6;
     padding: 9px 3%;
 }
 
 header h3 {
-    color: #fff;
+    color: #90e0ef;
 }
 
 header nav a {
-    color: #fff;
-    font-size: .95rem;
-    text-decoration: none;
+    color: #A007b6;
+    font-size: 1.1rem;
+    /* text-decoration: ; */
 }
 
 header nav a:not(:last-child) {

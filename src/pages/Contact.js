@@ -1,20 +1,20 @@
 import { useState } from "react";
 
-const styles = {
+let styles = {
     header: {
         textAlign: 'centre',
-        margin: '20px 0'
+        margin: '18px 2'
     },
 
     submitBtn: {
         backgroundColor: 'lilac',
-        color: '#fff',
+        color: '#90e0ef',
         cursor: 'pointer'
     }
 };
 
 function Contact() {
-    const [formData, setFormData] = useState({
+    let [formData, setFormData] = useState({
         name: '',
         email: '',
         message: ''

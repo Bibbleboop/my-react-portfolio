@@ -8,7 +8,7 @@ const [count, setCount] = useState(0);
 
     return (
         <>           
-            <h2>Count: {count}</h2>
+            <h2>Site Visitors {count}</h2>
 
             <button onClick={increase}>Increase</button>
 

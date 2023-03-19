@@ -10,7 +10,7 @@ import Header from './components/Header';
 
 
 function App() {
-  const title = 'My React Portfolio';
+  const title = 'Nicola Cahill - Portfolio';
 
 
   return (

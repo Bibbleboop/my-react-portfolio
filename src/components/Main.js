@@ -3,7 +3,7 @@ function Main(props) {
         <main>
             <h1 className="main-header">{props.title}</h1>
             <p>
-            Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+            Welcome to my React Portfolio. I will showcase all teh new projects and projects along my web3 journey. It is currently work in progress
             </p>
         </main>
     )
