@@ -1,5 +1,11 @@
+import profileAvatar from "../components/profileAvatar.png";
+
+export default function App() {
+    return <img src={profileAvatar}/>
+}
 function Main(props) { 
     return (
+        <>
         <main>
             <h1 className="main-header">{props.title}</h1>
             <p>
@@ -8,8 +14,9 @@ function Main(props) {
         </main>
         <body>
 
-    {/* <img src="/public/screenshots/profile avatar.png" */}
+    <img src="../components/profileAvatar.png">
         </body>
+        </>
     )
 }
 

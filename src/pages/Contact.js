@@ -37,7 +37,7 @@ function Contact() {
         <>
             <h1 style={styles.header}>Contact Me</h1>
 
-            <p></p>
+            <p>I will endeavour to respond in a timely manner </p>
 
             <form onSubmit={handleSubmit}>
                 <input name='name' onChange={handleChange} type="text" placeholder="Enter Your Name" />
