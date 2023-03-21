@@ -1,8 +1,8 @@
 import profileAvatar from "../components/profileAvatar.png";
 
-export default function App() {
-    return <img src={profileAvatar}/>
-}
+// export default function App() {
+    // return <img src={profileAvatar}/>
+// }
 function Main(props) { 
     return (
         <>
@@ -14,7 +14,7 @@ function Main(props) {
         </main>
         <body>
 
-    <img src="../components/profileAvatar.png">
+    <img src="../components/profileAvatar.png"></img>
         </body>
         </>
     )
