@@ -3,11 +3,12 @@ import { useState } from "react";
 let styles = {
     header: {
         textAlign: 'centre',
-        margin: '18px 2'
+        margin: '18px 2px',
+        padding: '5px'
     },
 
     submitBtn: {
-        backgroundColor: 'lilac',
+        backgroundColor: 'dark lilac',
         color: '#90e0ef',
         cursor: 'pointer'
     }
@@ -37,14 +38,16 @@ function Contact() {
         <>
             <h1 style={styles.header}>Contact Me</h1>
 
-            <p>I will endeavour to respond in a timely manner </p>
+            {/* <p>I will endeavour to respond in a timely manner </p> */}
 
             <form onSubmit={handleSubmit}>
                 <input name='name' onChange={handleChange} type="text" placeholder="Enter Your Name" />
                 <input name='email' onChange={handleChange} type="text" placeholder="Enter Your Email Address" />
-                <textarea name='message' onChange={handleChange} placeholder="Enter your message..." cols="30" rows="10" ></textarea>
+                <textarea name='message' onChange={handleChange} placeholder="Enter your message..." cols="20" rows="10" ></textarea>
                 <button style={styles.submitBtn}>Submit</button>
-            </form>        
+            </form>       
+
+        <footer/>
         </>
 
     )
