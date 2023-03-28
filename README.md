@@ -1,7 +1,8 @@
 # My REACT Portfolio
 My REACT Portfolio 
-For Challenge 14
+https://bibbleboop.github.io/my-react-portfolio/
 <img src="./images/readme ss.png">
+<img src="./images/contactme ss.png">
 As a FrontENd Web Dev Student this portfolio showcases what I have learned during this course as as well as showing all software used and previous work history and experience
 
 ## Table of Contents
