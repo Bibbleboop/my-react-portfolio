@@ -1,4 +1,4 @@
-import profileAvatar from "../components/profileAvatar.png";
+// import profileAvatar from "../components/profileAvatar.png";
 
 // export default function App() {
     // return <img src={profileAvatar}/>
