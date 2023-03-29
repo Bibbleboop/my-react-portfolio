@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 // import { useRoutes } from "react-router-dom";
 import {Routes, Route} from 'react-router-dom';
@@ -8,6 +9,8 @@ import NotFound from './pages/NotFound';
 import Header from './components/Header';
 import Footer from './components/Footer/footer';
 import Portfolio from './pages/Projects/Projects';
+import ProjectCard from './projectCard';
+// import Projects from './pages/Projects/Projects';
 // import Counter from "./components/Counter";
 
 
@@ -24,9 +27,10 @@ function App() {
       <Route path="/" element={<Home title={title} />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="./assets/portfolio" element={<Portfolio />} />
+      <Route path="./components/projectCard.js" element={<projectCard />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-
+    <projectCard/>
     {/* <Counter /> */}
     <Footer/>
 
