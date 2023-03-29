@@ -14,7 +14,7 @@ function Main(props) {
         </main>
         <body>
 
-    <img src="../components/profileAvatar.png"></img>
+    <img src="../components/profileAvatar.png" alt="AI avatar representation of Nicola"></img>
         </body>
         </>
     )
