@@ -1,36 +1,26 @@
 [
     {
-        "id": 1,
+        "id": "project1",
         "image": "./assets/portfolio/JSF Just Search Films.png",
         "title": "JSF Just Search Films",
-        "github": "https://github.com/Bibbleboop/Just-Search-Films",
+        "github": "https://github.com/Bibbleboop/Just-Search-Films"
     },
     {
-        "id": 2,
+        "id": "project2",
         "image": "./assets/portfolio/Random Password Generator.png",
         "title": "Random Password Generator",
         "github": "https://github.com/Bibbleboop/Password-Generator-Module-5-Challenge"
     },
     {
-        "id": 3,
+        "id": "project3",
         "image": "./assets/portfolio/Scheduler Planner.png",
         "title": "Scheduler Planner",
         "github": "https://github.com/Bibbleboop/Daily-Planner-App"
     },
     {
-        "id": 4,
+        "id": "project4",
         "image": "./assets/portfolio/Bootstrap Portfolio.png",
         "title": "Bootstrap Portfolio",
         "github": "https://github.com/Bibbleboop/Bootstrap-Portfolio"
     }
-    // {
-    //     id: 1,
-    //     image: project1,
-    //     title: 'JSF Just Search Films',
-    //     github: 'https://github.com/Bibbleboop/Just-Search-Films'
-    // },
-
-
-
-
 ]
