@@ -1,4 +1,4 @@
-// import profileAvatar from "../components/profileAvatar.png";
+import profileAvatar from "../components/profileAvatar.png";
 
 // export default function App() {
     // return <img src={profileAvatar}/>
@@ -14,7 +14,10 @@ function Main(props) {
         </main>
         <body>
 
-    <img src="../components/profileAvatar.png" alt="AI avatar representation of Nicola"></img>
+    <img src={require('../profile avatar.png'.png)} alt='AI avatar representation of Nicola' />
+
+    {/* <img src={require(“../cards/logo.png”)} className=“logo” alt=“logo” /> */}
+
         </body>
         </>
     )
