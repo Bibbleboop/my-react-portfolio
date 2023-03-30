@@ -17,7 +17,6 @@ import ProjectCard from './projectCard';
 function App() {
   const title = 'Nicola Cahill - Portfolio';
 
-
   return (
     <> 
     <Header title={title} />
@@ -27,10 +26,10 @@ function App() {
       <Route path="/" element={<Home title={title} />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="./assets/portfolio" element={<Portfolio />} />
-      <Route path="./components/projectCard.js" element={<projectCard />} />
+      <Route path="./components/projectCard.js" element={<ProjectCard />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-    <projectCard/>
+    <ProjectCard/>
     {/* <Counter /> */}
     <Footer/>
 
