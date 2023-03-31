@@ -1,26 +1,32 @@
 [
     {
         "id": "project1",
-        "image": "./assets/portfolio/JSF Just Search Films.png",
+        "image": "../../images/screenshots/JSF Just Search Films.png",
         "title": "JSF Just Search Films",
         "github": "https://github.com/Bibbleboop/Just-Search-Films"
     },
     {
         "id": "project2",
-        "image": "./assets/portfolio/Random Password Generator.png",
+        "image": "../../images/screenshots/Random Password Generator.png",
         "title": "Random Password Generator",
         "github": "https://github.com/Bibbleboop/Password-Generator-Module-5-Challenge"
     },
     {
         "id": "project3",
-        "image": "./assets/portfolio/Scheduler Planner.png",
+        "image": "../../images/screenshots/Scheduler Planner.png",
         "title": "Scheduler Planner",
         "github": "https://github.com/Bibbleboop/Daily-Planner-App"
     },
     {
         "id": "project4",
-        "image": "./assets/portfolio/Bootstrap Portfolio.png",
+        "image":"../../images/screenshots/Bootstrap Portfolio.png",
         "title": "Bootstrap Portfolio",
         "github": "https://github.com/Bibbleboop/Bootstrap-Portfolio"
+    }
+    {
+        "id": "project5",
+        "image": "../../images/screenshots/Eat Rave Love.png",
+        "title": "Bootstrap Portfolio",
+        "github": "https://github.com/Bibbleboop/Eat-Rave-Love"
     }
 ]
