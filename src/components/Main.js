@@ -1,8 +1,9 @@
+import React from "react";
 import profileAvatar from "../images/profileAvatar.png";
 
-// export default function App() {
-    // return <img src={profileAvatar}/>
-// }
+export default function App() {
+    return <img src={require('../profileAvatar.png'.png)} alt='AI avatar representation of Nicola' />
+}
 function Main(props) { 
     return (
         <>
@@ -14,7 +15,7 @@ function Main(props) {
         </main>
         <body>
 
-    <img src={require('../profile avatar.png'.png)} alt='AI avatar representation of Nicola' />
+    
 
     {/* <img src={require(“../cards/logo.png”)} className=“logo” alt=“logo” /> */}
 
@@ -23,4 +24,4 @@ function Main(props) {
     )
 }
 
-export default Main;
+// export default Main;
