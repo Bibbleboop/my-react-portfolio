@@ -1,13 +1,13 @@
 import React from 'react';
 
-//images of projects
-import bulkImages from './bulkImages';
+//image of projects
+import bulkProjects from './bulkProjects';
 
-export default function Projects() {
+export default function projects() {
     return (
-    <div className='bulkImagesDisplay'>
-        {bulkImages.map((img) => (
-        <img key={img} src={img} alt={img} className="bulkImage" />
+    <div className='bulkProjectsDisplay'>
+        {bulkProjects.map((img) => (
+        <img key={img} src={img} alt={img} className="bulkProject" />
     
     ))}
     </div>
