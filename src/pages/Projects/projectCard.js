@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { useState } from "react";
-import projectCard from './projectCard';
+// import projectCard from './projectCard';
 import { useParams } from "react-router-dom";
 import {Link} from 'react-router-dom';
 import projectData from './projects.json'
