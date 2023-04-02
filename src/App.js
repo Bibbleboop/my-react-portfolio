@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound';
 import Header from './components/Header';
 import Footer from './components/footer';
 import Portfolio from './pages/Projects/projects';
-// import ProjectCard from './projectCard';
+import ProjectCard from './pages/Projects/projectCard';
 // import Projects from './pages/Projects/Projects';
 // import Counter from "./components/Counter";
 
@@ -26,7 +26,7 @@ function App() {
       <Route path="/" element={<Home title={title} />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="./assets/portfolio" element={<Portfolio />} />
-      <Route path="./components/projectCard.js" element={<projectCard />} />
+      <Route path="/src/pages/Projects/projectCard.js" element={<projectCard />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
     <projectCard/>
