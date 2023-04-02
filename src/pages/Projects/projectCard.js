@@ -3,11 +3,11 @@ import React from "react";
 import { useState } from "react";
 // import projectCard from './projectCard';
 import { useParams } from "react-router-dom";
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import projectData from './projects.json'
 
 
-function ProjectDetails() {
+function projectCard(projectData) {
     const { id } = useParams();
     // eslint-disable-next-line no-undef
     array.forEach(element => {
