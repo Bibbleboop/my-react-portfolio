@@ -5,7 +5,7 @@ function Header(props) {
         <header>
             <h3>{props.title}</h3>
             <nav>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/src/pages/Projects/projectCard.js">Projects</NavLink>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
             </nav>
