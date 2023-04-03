@@ -10,6 +10,7 @@ import Header from './components/Header';
 import Footer from './components/footer';
 import Portfolio from './pages/Projects/projects';
 import ProjectCard from './pages/Projects/projectCard';
+import About from './pages/About';
 // import Projects from './pages/Projects/Projects';
 // import Counter from "./components/Counter";
 
@@ -24,6 +25,7 @@ function App() {
     <Routes>
       <Route path="*" element={<Nav />} / >
       <Route path="/" element={<Home title={title} />} />
+      <Route path="/src/pages/About.js" element={<About /> } />
       <Route path="/contact" element={<Contact />} />
       <Route path="./assets/portfolio" element={<Portfolio />} />
       <Route path="/src/pages/Projects/projectCard.js" element={<projectCard />} />
