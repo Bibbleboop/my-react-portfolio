@@ -4,11 +4,27 @@ import { useState } from "react";
 // import projectCard from './projectCard';
 import { useParams } from "react-router-dom";
 import {NavLink} from 'react-router-dom';
-import projectData from './projects.json'
+import projectData from './projects.json';
 
+// function projectCard() {
 
-function projectCard(projectData) {
-    const { id } = useParams();
+export default function projectCard() {
+    const [currentPage, setCurrentPage] useState('About');
+
+    const renderPage = () => {
+        if (currentPage === 'About') {
+            return <About/>;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio/>;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact/>;
+        }
+    }
+
+}
+    // const [projectArray] = useState(projectData);
     // eslint-disable-next-line no-undef
     array.forEach(element => {
         let project = projectData.find((p) => p.id === parseInt(id));
@@ -19,4 +35,4 @@ function projectCard(projectData) {
 // SECTION NEEDS CHANGING
 
 
-export default projectCard;
+// export default projectCard;
