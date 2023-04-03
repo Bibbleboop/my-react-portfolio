@@ -1,15 +1,9 @@
 # My REACT Portfolio
 My REACT Portfolio 
 https://bibbleboop.github.io/my-react-portfolio/
-<<<<<<< HEAD
-<img src="./src/images/readme ss.png">
-<img src="./src/images/contactme ss.png">
-As a FrontENd Web Dev Student this portfolio showcases what I have learned during this course as as well as showing all software used and previous work history and experience
-=======
 <img src="./images/readme ss.png">
 <img src="./images/contactme ss.png">
 As a FrontEnd Web Dev Student this portfolio showcases what I have learned during this course as as well as showing all software used and previous work history and experience
->>>>>>> 7660333b856dc8505c940f713b018899ae76b440
 
 ## Table of Contents
 
